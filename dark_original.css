@@ -15,27 +15,29 @@
 
 * {
   font-family: "Arial";
+  color: white;
 }
 
 a {
 text-decoration: none;
+color: white;
 }
 
 .float-right 
   {float: right;} 
 .postbutton 
-  {height:23px; position: relative; top:-3px; border-color: white; background-color: orange; padding: 4px; line-height: 0px; box-shadow: none; margin:0px 3px;}
+  {height:23px; position: relative; top:-3px; border-color: rgb(0, 0, 0); background-color: #005aff; padding: 4px; line-height: 0px; box-shadow: none; margin:0px 3px;}
 .white
-  {color: white;}
+  {color: black;}
 .postbutton:active 
-  {background-color: #BB7A00;}
+  {background-color: ##005aff;}
 
 .link {
   font-size: 32px;
 }
 
 #nav {
-  background-color: orange;
+  background-color: #005aff;
 }
 
 #scratch {
@@ -43,13 +45,13 @@ text-decoration: none;
 }
 
 #upper_tab {
-  background-color: orange;
-  color:white;
+  background-color: #005aff;
+  color:black;
   padding: 5px;
 }
 
 body {
-  background-color: #fff;
+  background-color: black;
   font-size: 16px;
 	overflow-x: hidden;
 }
@@ -69,14 +71,14 @@ body {
 }
 
 #post {
-  border: 5px solid orange;
+  border: 5px solid #005aff;
   padding: 5px;
   border-radius:2px;
 }
 
 .logo {
-  color:white;
-  background-color:orange;
+  color:black;
+  background-color:#005aff;
   padding: 10px;
   font-size:50px;
   position: absolute;
@@ -87,7 +89,7 @@ body {
 
 .logo a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .content {
@@ -104,7 +106,7 @@ ol.code {
   counter-reset: item;
   list-style-type: none;
   border-left-style: solid;
-  border-left-color: orange;
+  border-left-color: #005aff;
   border-width: medium;
   line-height: 20px;
 }
@@ -140,11 +142,13 @@ ol.code li:before {
 button {
   font-family: Card;
   border-radius: calc(0.5rem / 2);
-  border: solid 2px orange;
-  background-color: white;
+  border: solid 2px #005aff;
+  background-color: black;
   padding: 10px;
   padding-bottom: 6px;
   font-size: 15px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
 }
+
